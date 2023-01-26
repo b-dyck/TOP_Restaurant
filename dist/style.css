@@ -1,0 +1,76 @@
+:root {
+    --font-color-gold: #c59d5f
+}
+
+@font-face {
+    font-family: explora;
+    src: url(/dist/fonts/);
+}
+
+body {
+    background-image: url('images/jungle_background.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#content {
+    color: var(--font-color-gold);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Header */
+
+#header {
+    border-bottom: 2px solid var(--font-color-gold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+button {
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    color: var(--font-color-gold);
+    font-size: 16px;
+    margin: 1px 24px;
+}
+/* Main */
+
+#main {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Explora', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.home p {
+    font-size: 32px;
+}
+/* Footer */
+ #footer {
+     height: 4rem;
+     border-top: 2px solid var(--font-color-gold);
+     text-align: center;
+ }
