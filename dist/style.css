@@ -27,7 +27,7 @@ body {
 
 /* Header */
 
-#header {
+header {
     border-bottom: 2px solid var(--font-color-gold);
     display: flex;
     justify-content: center;
