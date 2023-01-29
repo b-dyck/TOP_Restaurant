@@ -69,7 +69,7 @@ h1 {
     font-size: 32px;
 }
 /* Footer */
- #footer {
+ footer {
      height: 4rem;
      border-top: 2px solid var(--font-color-gold);
      text-align: center;
