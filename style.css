@@ -34,6 +34,8 @@ header {
     align-items: center;
     height: 6rem;
     background-color: rgba(0, 0, 0, 0.6);
+    padding: 24px;
+    flex: none;
 }
 
 button {
@@ -42,7 +44,7 @@ button {
     outline: none;
     color: var(--font-color-gold);
     font-size: 16px;
-    margin: 1px 24px;
+    margin: 24px 24px;
 }
 /* Main */
 
@@ -51,6 +53,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .home {
     display: flex;
@@ -61,12 +64,39 @@ button {
     text-align: center;
 }
 
+/* Home Page */
+
 h1 {
     font-size: 64px;
 }
 
 .home p {
     font-size: 32px;
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Explora', cursive;
+    font-size: 24px;
+    background-color: var(--font-color-gold);
+    color: #2f4f4f;
+    width: 50vw;
+}
+
+.drink, .dish {
+    margin: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin: 0;
 }
 /* Footer */
  footer {
