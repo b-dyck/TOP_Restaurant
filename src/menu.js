@@ -8,7 +8,7 @@ function loadMenu() {
     drinks.classList.add("drinks");
 
 
-    for(let i = 0; i<10; i++) {
+    for(let i = 0; i<5; i++) {
 
     const drink = document.createElement("div")
     drink.classList.add("drink");
@@ -30,7 +30,7 @@ function loadMenu() {
     food.classList.add("food");
 
 
-    for(let i = 0; i<10; i++) {
+    for(let i = 0; i<5; i++) {
 
     const dish = document.createElement("div")
     dish.classList.add("dish");
