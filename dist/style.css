@@ -67,7 +67,9 @@ button {
 /* Home Page */
 
 h1 {
-    font-size: 64px;
+    font-size: 96px;
+    font-weight: 500;
+    border-bottom: 4px solid var(--font-color-gold);
 }
 
 .home p {
@@ -81,10 +83,17 @@ h1 {
     flex-direction: column;
     align-items: center;
     font-family: 'Explora', cursive;
-    font-size: 24px;
+    font-size: 48px;
     background-color: var(--font-color-gold);
     color: #2f4f4f;
     width: 50vw;
+}
+
+
+h2 {
+    font-weight:500;
+    text-align: center;
+    margin-top: 0;
 }
 
 .drink, .dish {
@@ -93,10 +102,21 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px solid #2f4f4f;
+    
 }
 
-h2 {
+.drink>p {
     margin: 0;
+}
+
+/* About */
+
+.about {
+    font-family: 'Explora', cursive;
+    font-size: 48px;
+    width: 50vw;
+    text-align: center;
 }
 /* Footer */
  footer {
