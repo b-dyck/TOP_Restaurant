@@ -24,7 +24,7 @@ function loadMenu() {
         drink.classList.add("drink");
 
         const drinkIcon = document.createElement("img");
-        drinkIcon.src = "../dist/images/glass-flute-24.png";
+        drinkIcon.src = "./images/glass-flute-24.png";
         drink.appendChild(drinkIcon);
 
         const drinkTitle = document.createElement("p");
@@ -49,7 +49,7 @@ function loadMenu() {
         dish.classList.add("dish");
 
         const dishIcon = document.createElement("img");
-        dishIcon.src = "../dist/images/silverware-variant-24.png";
+        dishIcon.src = "./images/silverware-variant-24.png";
         dish.appendChild(dishIcon);
 
         const dishTitle = document.createElement("p");
